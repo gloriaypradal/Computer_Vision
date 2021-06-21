@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## Computer Vision
 
-You can use the [editor on GitHub](https://github.com/gloriaypradal/Computer_Vision/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Code created to recognize images using Keras dataset and using a neural network recommended on textbook: Depp Learning with Python
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Jupyter Notebook was used
+
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+The followinf libraries would need to be installed in order to run this code:
 
-# Header 1
-## Header 2
-### Header 3
+from keras import layers 
+from keras import models 
+import pandas as pd 
+from keras.datasets 
+import mnist from keras.utils 
+import to_categorical 
+import os, shutil 
+from keras.datasets 
+import cifar10 
+from keras.preprocessing.image 
+import ImageDataGenerator 
+from tensorflow.keras.applications.resnet50 
+import ResNet50 
+from tensorflow.keras.preprocessing 
+import image 
+from tensorflow.keras.applications.resnet50 
+import preprocess_input, decode_predictions
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### References
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gloriaypradal/Computer_Vision/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[](https://github.com/fchollet/deep-learning-with-python-notebooks)
 
-### Support or Contact
+### Author
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Gloria Moore
